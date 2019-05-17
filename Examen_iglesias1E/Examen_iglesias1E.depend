@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1558043877 source:/home/alumno/ProyectoParcial/Examen_iglesias1E/examen.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+	<ctype.h>
+	<string.h>
+
+1558045513 /home/alumno/ProyectoParcial/Examen_iglesias1E/examen.h
+
+1558043812 source:/home/alumno/ProyectoParcial/Examen_iglesias1E/main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+	<ctype.h>
+	<string.h>
+
+1558051204 source:/home/alumno/ProyectoParcial/Examen_iglesias1E/get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
