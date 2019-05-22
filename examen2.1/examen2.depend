@@ -1,0 +1,301 @@
+# depslib dependency file v1.0
+1558418629 source:c:\users\gonza\desktop\examen2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+
+1558307784 
+
+1558307784 source:c:\users\gonza\desktop\examen2\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558418815 source:c:\users\gonza\desktop\examen2\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+
+1558416407 c:\users\gonza\desktop\examen2\musico.h
+
+1558307822 c:\users\gonza\desktop\examen2\get_string.h
+
+1558307784 source:c:\users\giglesias\desktop\examen2\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558372449 source:c:\users\giglesias\desktop\examen2\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+
+1558307822 c:\users\giglesias\desktop\examen2\get_string.h
+
+1558307064 c:\users\giglesias\desktop\examen2\musico.h
+
+1558367913 source:c:\users\giglesias\desktop\examen2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+
+1558307784 source:c:\users\giglesias\desktop\examen2.1\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558545442 source:c:\users\giglesias\desktop\examen2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558500762 to.h"
+
+1558307822 c:\users\giglesias\desktop\examen2.1\get_string.h
+
+1558545360 c:\users\giglesias\desktop\examen2.1\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1558545948 source:c:\users\giglesias\desktop\examen2.1\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558496994 source:c:\users\giglesias\desktop\examen2.1\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558496994 .h"
+
+1558494500 c:\users\giglesias\desktop\examen2.1\orquestas.h
+
+1558491972 source:c:\users\giglesias\desktop\examen2.1\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558491318 c:\users\giglesias\desktop\examen2.1\instrumento.h
+
+1558307784 source:d:\dabila\examen2.1\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558491972 source:d:\dabila\examen2.1\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558307822 d:\dabila\examen2.1\get_string.h
+
+1558491318 d:\dabila\examen2.1\instrumento.h
+
+1558477618 source:d:\dabila\examen2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558545362 d:\dabila\examen2.1\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1558494500 d:\dabila\examen2.1\orquestas.h
+
+1558545950 source:d:\dabila\examen2.1\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558496994 source:d:\dabila\examen2.1\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558307784 source:c:\users\gonza\desktop\examen2.1\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558491970 source:c:\users\gonza\desktop\examen2.1\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558307822 c:\users\gonza\desktop\examen2.1\get_string.h
+
+1558491317 c:\users\gonza\desktop\examen2.1\instrumento.h
+
+1558500760 source:c:\users\gonza\desktop\examen2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558500847 c:\users\gonza\desktop\examen2.1\musico.h
+	"Orquestas.h"
+
+1558494499 c:\users\gonza\desktop\examen2.1\orquestas.h
+
+1558500918 source:c:\users\gonza\desktop\examen2.1\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+
+1558496992 source:c:\users\gonza\desktop\examen2.1\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558307784 source:f:\dabila\examen2.1\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558491972 source:f:\dabila\examen2.1\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558307822 f:\dabila\examen2.1\get_string.h
+
+1558491318 f:\dabila\examen2.1\instrumento.h
+
+1558500762 source:f:\dabila\examen2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558500848 f:\dabila\examen2.1\musico.h
+	"Orquestas.h"
+
+1558494500 f:\dabila\examen2.1\orquestas.h
+
+1558500920 source:f:\dabila\examen2.1\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+
+1558496994 source:f:\dabila\examen2.1\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558296984 source:/home/alumno/Documentos/examen2.1/get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558481172 source:/home/alumno/Documentos/examen2.1/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558297022 /home/alumno/Documentos/examen2.1/get_string.h
+
+1558480518 /home/alumno/Documentos/examen2.1/instrumento.h
+
+1558538620 source:/home/alumno/Documentos/examen2.1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558534562 /home/alumno/Documentos/examen2.1/Musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1558483700 /home/alumno/Documentos/examen2.1/Orquestas.h
+
+1558535150 source:/home/alumno/Documentos/examen2.1/Musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558486194 source:/home/alumno/Documentos/examen2.1/Orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
