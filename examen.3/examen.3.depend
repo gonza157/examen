@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1558296984 source:/home/alumno/Documentos/examen.3/get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558568233 source:/home/alumno/Documentos/examen.3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558297022 /home/alumno/Documentos/examen.3/get_string.h
+
+1558567296 /home/alumno/Documentos/examen.3/Musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1558483700 /home/alumno/Documentos/examen.3/Orquestas.h
+
+1558480518 /home/alumno/Documentos/examen.3/instrumento.h
+
+1558561759 source:/home/alumno/Documentos/examen.3/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558561880 source:/home/alumno/Documentos/examen.3/Orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558568965 source:/home/alumno/Documentos/examen.3/Musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
