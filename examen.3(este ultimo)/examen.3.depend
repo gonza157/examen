@@ -1,0 +1,251 @@
+# depslib dependency file v1.0
+1558296984 source:/home/alumno/Documentos/examen.3/get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558568233 source:/home/alumno/Documentos/examen.3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558297022 /home/alumno/Documentos/examen.3/get_string.h
+
+1558567296 /home/alumno/Documentos/examen.3/Musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1558483700 /home/alumno/Documentos/examen.3/Orquestas.h
+
+1558480518 /home/alumno/Documentos/examen.3/instrumento.h
+
+1558561759 source:/home/alumno/Documentos/examen.3/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558561880 source:/home/alumno/Documentos/examen.3/Orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558568965 source:/home/alumno/Documentos/examen.3/Musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1558569442 source:c:\users\gonza\documents\examen(importante)\examen-master\examen.3\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558569442 source:c:\users\gonza\documents\examen(importante)\examen-master\examen.3\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558569442 c:\users\gonza\documents\examen(importante)\examen-master\examen.3\get_string.h
+
+1558569442 c:\users\gonza\documents\examen(importante)\examen-master\examen.3\instrumento.h
+
+1559169302 source:c:\users\gonza\documents\examen(importante)\examen-master\examen.3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559169304 c:\users\gonza\documents\examen(importante)\examen-master\examen.3\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1559165256 c:\users\gonza\documents\examen(importante)\examen-master\examen.3\orquestas.h
+
+1559170011 source:c:\users\gonza\documents\examen(importante)\examen-master\examen.3\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559167563 source:c:\users\gonza\documents\examen(importante)\examen-master\examen.3\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558569442 source:f:\dabila\examen.3(este ultimo)\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1559179794 source:f:\dabila\examen.3(este ultimo)\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558569442 f:\dabila\examen.3(este ultimo)\get_string.h
+
+1558569442 f:\dabila\examen.3(este ultimo)\instrumento.h
+
+1559184656 source:f:\dabila\examen.3(este ultimo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559184486 f:\dabila\examen.3(este ultimo)\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176408 f:\dabila\examen.3(este ultimo)\orquestas.h
+
+1559186300 source:f:\dabila\examen.3(este ultimo)\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176582 source:f:\dabila\examen.3(este ultimo)\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558569442 source:c:\users\coty\desktop\examen.3(este ultimo)\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1559179793 source:c:\users\coty\desktop\examen.3(este ultimo)\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558569442 c:\users\coty\desktop\examen.3(este ultimo)\get_string.h
+
+1558569442 c:\users\coty\desktop\examen.3(este ultimo)\instrumento.h
+
+1559184654 source:c:\users\coty\desktop\examen.3(este ultimo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559184484 c:\users\coty\desktop\examen.3(este ultimo)\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176406 c:\users\coty\desktop\examen.3(este ultimo)\orquestas.h
+
+1559186299 source:c:\users\coty\desktop\examen.3(este ultimo)\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176581 source:c:\users\coty\desktop\examen.3(este ultimo)\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1558569442 source:c:\users\gonza\desktop\examen.3(este ultimo)\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1559179794 source:c:\users\gonza\desktop\examen.3(este ultimo)\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558569442 c:\users\gonza\desktop\examen.3(este ultimo)\get_string.h
+
+1558569442 c:\users\gonza\desktop\examen.3(este ultimo)\instrumento.h
+
+1559191671 source:c:\users\gonza\desktop\examen.3(este ultimo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559191566 c:\users\gonza\desktop\examen.3(este ultimo)\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176408 c:\users\gonza\desktop\examen.3(este ultimo)\orquestas.h
+
+1559191812 source:c:\users\gonza\desktop\examen.3(este ultimo)\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176582 source:c:\users\gonza\desktop\examen.3(este ultimo)\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
