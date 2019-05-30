@@ -6,6 +6,13 @@
 #include "Musico.h"
 #include "Orquestas.h"
 #include "instrumento.h"
+/** \brief inicializa un array de tipo eMusico
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return el arrar inicializado en 1 todos los campos isEmty
+ *
+ */
 
 void inicializarMusico(eMusico* list, int len)
 {
@@ -15,12 +22,28 @@ void inicializarMusico(eMusico* list, int len)
         list[i].isEmpty=1;
     }
 }
+/** \brief genera un id auto incrmental
+ *
+ * \param ninguno
+ * \return un id distinto cada ves que accede
+ *
+ */
+
 static int generateId(void)
 {
     static int idUnico=0;
     idUnico++;
     return idUnico;
 }
+
+/** \brief carga toda la informacion de un musico en un array de tipo eMusico
+ *
+ * \param El array
+ * \param el largo del array
+ * \param todos los datos de los campos validados
+ * \return 0 si lo pudo cargar -1 si no pudo hacerlo
+ *
+ */
 
 int addMusico(eMusico* list, int len,int indice,int id,char* nombre, int* edad ,char* apellido,int idinstrumento, int idorquesta)
 {
@@ -38,6 +61,14 @@ int addMusico(eMusico* list, int len,int indice,int id,char* nombre, int* edad ,
     return 0;
 }
 
+/** \brief comienza el proceso de carga de un musico, se fija que alla espacio llamando a otra funcion y luego llama a la funcion de carga si allo el espacio disponible
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return 0 si sigue adelante y puede cargar el empleado y -1 si no encuentra lugar para empezar
+ *
+ */
+
 void altaMusico(eMusico *list,int len)
 {
     int indice;
@@ -51,6 +82,15 @@ void altaMusico(eMusico *list,int len)
         cargaMusico(list,len);
     }
 }
+
+/** \brief valida todos los campos de un musico para poder cargarlos
+ *
+ * \param array tipo eMusico
+ * \param largo array
+ * \return 0 si valido todos los datos y le paso los datos a la funcion add
+ *
+ */
+
 int cargaMusico(eMusico* list,int len)
 {
 
@@ -106,6 +146,14 @@ int cargaMusico(eMusico* list,int len)
 
 }
 
+/** \brief carga datos elegidos para llenar el array de tipo eMusico
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return nada
+ *
+ */
+
 void harcodeoMusico(eMusico* client,int len)
 {
     client[0].idMusico=1;
@@ -158,8 +206,7 @@ void harcodeoMusico(eMusico* client,int len)
 
 }
 
-
-void modificaMusico(eMusico * list,int len)
+/*void modificaMusico(eMusico * list,int len)
 {
     int option;
     MuestraMenu("1- ALTA\n2- BAJA\n3- MODIFICAR\n4- LISTAR\n5-SALIR");
@@ -187,7 +234,14 @@ void modificaMusico(eMusico * list,int len)
         break;
     }
 }
-
+*/
+/** \brief Modifica los campos que elijas del musico que elijas
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return 0 si lo logro o -1 si no lo logro
+ *
+ */
 void modificaMusicos(eMusico *list,int len)
 {
     int option;
@@ -237,6 +291,14 @@ void modificaMusicos(eMusico *list,int len)
 
 }
 
+/** \brief Ordena el array de tipo eMusico por apellido
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return 0 si lo pudo ordenar -1 si no lo pudo ordenar
+ *
+ */
+
 int ordenarMusico(eMusico* list, int len)
 {
     int i,j;
@@ -258,6 +320,13 @@ int ordenarMusico(eMusico* list, int len)
         return 0;
 }
 
+/** \brief imprime un musico en particular con  sus campos de informacion sin los ids de otros tipo de datos
+ *
+ * \param musico a imprimir
+ * \return 0 si lo pudo imprir
+ *
+ */
+
 int printMusico(eMusico list)
 {
 
@@ -268,6 +337,12 @@ int printMusico(eMusico list)
     return 0;
 }
 
+/** \brief imprime array de musicos  con todos sus campos a traves de la funcion printmusico
+ *
+ * \param musicos a imprimir
+ * \return 0 si lo pudo imprir
+ *
+ */
 int printMusicos(eMusico* list, int len)
 {
     int i;
@@ -282,6 +357,13 @@ int printMusicos(eMusico* list, int len)
 
 }
 
+/** \brief imprime un musico en particular con todos sus campos y los id de las otras entidades que se le cargan
+ *
+ * \param musico a imprimir
+ * \return 0 si lo pudo imprir
+ *
+ */
+
 int printMusicoConids(eMusico list)
 {
 
@@ -292,6 +374,13 @@ int printMusicoConids(eMusico list)
     return 0;
 }
 
+/** \brief imprime array de musicos con todos sus campos y los id de las otras entidades que se le cargan
+ *
+ * \param array de musicos a imprimir
+ * \param largo del array
+ * \return 0 si lo pudo imprir
+ *
+ */
 int printMusicosConids(eMusico* list, int len)
 {
     int i;
@@ -306,6 +395,17 @@ int printMusicosConids(eMusico* list, int len)
 
 }
 
+/** \brief imprime array de musicos con todos sus campos y  id de oquesta y el tipo de instrumento
+ *
+ * \param array de musicos a imprimir
+ * \param posicion del musico
+ * \param array de tipo eInstrumento
+ * \param largo del array instrumento
+ * \param array del tipo eOrquesta
+ * \param largo del array de orquestas
+ * \return 0 si lo pudo imprir
+ *
+ */
 int printMusicoConinstrumento(eMusico* list,int posicion,eInstrumento* inst,int leninstrumentos,eOrquesta* orquesta,int lenorquesta,int idorquesta)
 {
     int nInstrumento;
@@ -321,6 +421,18 @@ int printMusicoConinstrumento(eMusico* list,int posicion,eInstrumento* inst,int 
 
     return 0;
 }
+
+/** \brief imprime array de musicos con todos sus campos y  id de oquesta y el tipo de instrumento mientras sea mayor de 30 años
+ *
+ * \param array de musicos a imprimir
+ * \param posicion del musico
+ * \param array de tipo eInstrumento
+ * \param largo del array instrumento
+ * \param array del tipo eOrquesta
+ * \param largo del array de orquestas
+ * \return 0 si lo pudo imprir
+ *
+ */
 
 int printMusicoEdad(eMusico* list,int posicion,eInstrumento* inst,int leninstrumentos,eOrquesta* orquesta,int lenorquesta)
 {
@@ -348,6 +460,17 @@ int printMusicoEdad(eMusico* list,int posicion,eInstrumento* inst,int leninstrum
     return 0;
 }
 
+/** \brief imprime array de musicos con todos sus campos y  id de oquesta y el tipo de instrumento por orquesta
+ *
+ * \param array de musicos a imprimir
+ * \param posicion del musico
+ * \param array de tipo eInstrumento
+ * \param largo del array instrumento
+ * \param array del tipo eOrquesta
+ * \param largo del array de orquestas
+ * \return 0 si lo pudo imprir
+ *
+ */
 int printMusicoConinstrumentoOrquesta(eMusico* list,int posicion,eInstrumento* inst,int leninstrumentos,eOrquesta* orquesta,int lenorquesta,int idorquesta)
 {
     int nInstrumento;
@@ -363,6 +486,48 @@ int printMusicoConinstrumentoOrquesta(eMusico* list,int posicion,eInstrumento* i
 
     return 0;
 }
+/** \brief imprime array de musicos con todos sus campos  y el tipo de instrumento
+ *
+ * \param array de musicos a imprimir
+ * \param posicion del musico
+ * \param array de tipo eInstrumento
+ * \param largo del array instrumento
+ * \param array del tipo eOrquesta
+ * \param largo del array de orquestas
+ * \return 0 si lo pudo imprir
+ *
+ */
+int printMusConinstSolo(eMusico* list,int lenmusicos,int idMusico,eInstrumento* inst,int leninstrumentos)
+{
+    int nInstrumento;
+    int i=0;
+    int posicion=0;
+    for(i=0;i<lenmusicos;i++)
+    {
+        if(list[i].idMusico==idMusico)
+        {
+            posicion=i;
+        }
+    }
+    nInstrumento=list[posicion].idinstrumento;
+    for(i=0; i<leninstrumentos; i++)
+    {
+        if(inst[i].idinstrumento==nInstrumento && inst[posicion].isEmpty==0)
+        {
+            printf(" %d %15s\t%s %10d\t %d\t %s\t  \n",list[posicion].idMusico,list[posicion].nombre,list[posicion].apellido,list[posicion].edad,list[posicion].idorquesta,inst[i].tipo);
+        }
+    }
+
+    return 0;
+}
+
+/** \brief Hace la baja logica de un musico
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return 0 si pudo borrarlo
+ *
+ */
 
 void bajaMusico(eMusico * list,int len)
 {
@@ -394,6 +559,14 @@ void bajaMusico(eMusico * list,int len)
     }
 }
 
+/** \brief busca lugar libre en el array de musico
+ *
+ * \param array de tipo eMusico
+ * \param largo del array
+ * \return retorna 0 si consiguio lugar -1 si no consigui lugar
+ *
+ */
+
 int buscarLibreMusico(eMusico* list,int len)
 {
     int i;
@@ -408,7 +581,7 @@ int buscarLibreMusico(eMusico* list,int len)
     return -1;
 }
 
-int listarMusicosPororquesta(eOrquesta* orquesta,int lenorquesta,eMusico* musico,int lenmusico,eInstrumento* instrumento, int largoinstrumento)
+/*int listarMusicosPororquesta(eOrquesta* orquesta,int lenorquesta,eMusico* musico,int lenmusico,eInstrumento* instrumento, int largoinstrumento)
 {
     int i;
     int idorquesta=0;
@@ -433,9 +606,9 @@ int listarMusicosPororquesta(eOrquesta* orquesta,int lenorquesta,eMusico* musico
         printf("No se encontro musico para esta orquesta");
     }
     return retorno;
-}
+}*/
 
-int listarMusicosConinstrumento(eMusico* musico,int lenmusico,eInstrumento* instrumento, int leninstrumento,eOrquesta* orquesta,int lenorquesta)
+/*int listarMusicosConinstrumento(eMusico* musico,int lenmusico,eInstrumento* instrumento, int leninstrumento,eOrquesta* orquesta,int lenorquesta)
 {
     int i;
     int retorno=-1;
@@ -453,9 +626,9 @@ int listarMusicosConinstrumento(eMusico* musico,int lenmusico,eInstrumento* inst
         printf("No se encontro musico para esta orquesta");
     }
     return retorno;
-}
+}*/
 
-int listarorquestas5musi(eOrquesta* orquesta,int lenorquesta,eMusico* musicos,int lenmusicos)
+/*int listarorquestas5musi(eOrquesta* orquesta,int lenorquesta,eMusico* musicos,int lenmusicos)
 {
     int i=0;
     int control=0;
@@ -496,9 +669,9 @@ int listarorquestas5musi(eOrquesta* orquesta,int lenorquesta,eMusico* musicos,in
         }
     }
     return retorno;
-}
+}*/
 
-int listarporLugar(eOrquesta* orquesta,int lenorquesta,etipoOrquesta* tipo,int lentipo)
+/*int listarporLugar(eOrquesta* orquesta,int lenorquesta,etipoOrquesta* tipo,int lentipo)
 {
     int i=0;
     int retorno=-1;
@@ -518,9 +691,9 @@ int listarporLugar(eOrquesta* orquesta,int lenorquesta,etipoOrquesta* tipo,int l
         printf("no se encontraron orquestas en ese lugar");
     }
     return retorno;
-}
+}*/
 
-int listarorquestaconmasmusicos(eOrquesta* orquesta, int lenorquesta, eMusico* musicos,int lenmusicos)
+/*int listarorquestaconmasmusicos(eOrquesta* orquesta, int lenorquesta, eMusico* musicos,int lenmusicos)
 {
     int i=0,j=0;
     int acumulador[5];
@@ -562,12 +735,13 @@ int listarorquestaconmasmusicos(eOrquesta* orquesta, int lenorquesta, eMusico* m
     printf("Cantidad de musicos: %d",max);
 
     return retorno;
-}
+}*/
 
-int listarmusicoCurdas(eInstrumento* inst,int leninstrumento, eMusico* musicos,int lenmusicos)
+/*int listarmusicoCurdas(eInstrumento* inst,int leninstrumento, eMusico* musicos,int lenmusicos)
 {
     int i=0;
     int retorno=-1;
+    int idMusico=0;
     eMusico auxmusico[lenmusicos];
     inicializarMusico(auxmusico,lenmusicos);
     for(i=0; i<lenmusicos; i++)
@@ -579,12 +753,19 @@ int listarmusicoCurdas(eInstrumento* inst,int leninstrumento, eMusico* musicos,i
         }
     }
     ordenarMusico(auxmusico,lenmusicos);
-    printMusicos(auxmusico,lenmusicos);
+    for(i=0;i<lenmusicos;i++)
+    {
+        if(auxmusico[i].isEmpty==0)
+        {
+            idMusico=auxmusico[i].idMusico;
+            printMusConinstSolo(auxmusico,lenmusicos,idMusico,inst,leninstrumento);
+        }
+    }
 
 return retorno;
-}
+}*/
 
-int listarPromedioMusicos(eOrquesta* list,int lenorquesta,eMusico* musico,int lenmusico)
+/*int listarPromedioMusicos(eOrquesta* list,int lenorquesta,eMusico* musico,int lenmusico)
 {
     int i=0;
     int retorno=-1;
@@ -605,11 +786,77 @@ int listarPromedioMusicos(eOrquesta* list,int lenorquesta,eMusico* musico,int le
             acumuladorM++;
         }
     }
-    printf("%d",acumuladorO);
-    printf("%d",acumuladorM);
-    promedio= (float)acumuladorO / (float) acumuladorM;
-    printf("%f",promedio);
+    promedio= (float)acumuladorM / (float) acumuladorO;
+    printf("%.1f",promedio);
 
     return retorno;
-}
+}*/
+
+/*int listarOrquestasCompletas(eOrquesta* orquesta,int lenorquesta,eMusico* musico,int lenmusico,eInstrumento* instrumento,int largoinstrumento)
+{
+    int i=0;
+    int j=0;
+    int h=0;
+    int posicion=0;
+    eMusico auxmusico[lenmusico];
+    int idsOrquesta[lenorquesta];
+    int acumuladorC=0;
+    int acumuladorV=0;
+    int acumuladorP=0;
+    int retorno=-1;
+    for(i=0;i<lenorquesta;i++)
+    {
+        if(orquesta[i].isEmpty==0)
+        {
+        for(j=0;j<lenmusico;j++)
+        {
+            if(musico[j].idorquesta== orquesta[i].idorquesta && musico[j].isEmpty==0)
+            {
+                    for(h=0; h<largoinstrumento; h++)
+                    {
+                        idsOrquesta[j]=i;
+                        auxmusico[j]=musico[j];
+                    }
+
+            }
+        }
+    }
+
+    }
+    for(i=0; i<lenmusico; i++)
+    {
+        for(j=0; j<largoinstrumento; j++)
+        {
+            if(auxmusico[i].idinstrumento==instrumento[j].idinstrumento && strcmp(instrumento[j].tipo,instrumento[0].tipo)==0)
+            {
+                acumuladorC++;
+            }
+            if(auxmusico[i].idinstrumento==instrumento[j].idinstrumento && strcmp(instrumento[j].tipo,instrumento[1].tipo)==0)
+            {
+                acumuladorP++;
+            }
+            if(auxmusico[i].idinstrumento==instrumento[j].idinstrumento && strcmp(instrumento[j].tipo,instrumento[2].tipo)==0)
+            {
+                acumuladorV++;
+            }
+            if(acumuladorC>=5 && acumuladorP>=2 && acumuladorV>=3)
+            {
+                for(h=0;h<lenorquesta;h++)
+                {
+                    posicion=idsOrquesta[h];
+                    printOrquesta(orquesta[posicion]);
+                }
+                retorno=0;
+            }
+
+        }
+
+    }
+
+    if(retorno==-1)
+    {
+        printf("No se encontro ninguna orquesta completa");
+    }
+    return retorno;
+}*/
 

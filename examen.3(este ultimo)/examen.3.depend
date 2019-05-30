@@ -116,7 +116,7 @@
 
 1558569442 f:\dabila\examen.3(este ultimo)\instrumento.h
 
-1559184656 source:f:\dabila\examen.3(este ultimo)\main.c
+1559191672 source:f:\dabila\examen.3(este ultimo)\main.c
 	<stdio.h>
 	<stdlib.h>
 	"string.h"
@@ -125,13 +125,13 @@
 	"Orquestas.h"
 	"instrumento.h"
 
-1559184486 f:\dabila\examen.3(este ultimo)\musico.h
+1559191568 f:\dabila\examen.3(este ultimo)\musico.h
 	"Orquestas.h"
 	"instrumento.h"
 
 1559176408 f:\dabila\examen.3(este ultimo)\orquestas.h
 
-1559186300 source:f:\dabila\examen.3(este ultimo)\musico.c
+1559191814 source:f:\dabila\examen.3(este ultimo)\musico.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -248,4 +248,69 @@
 	<string.h>
 	"get_string.h"
 	"Orquestas.h"
+
+1558569442 source:c:\users\giglesias\desktop\examen.3(este ultimo)\get_string.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1559179794 source:c:\users\giglesias\desktop\examen.3(este ultimo)\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"instrumento.h"
+
+1558569442 c:\users\giglesias\desktop\examen.3(este ultimo)\get_string.h
+
+1558569442 c:\users\giglesias\desktop\examen.3(este ultimo)\instrumento.h
+
+1559247435 source:c:\users\giglesias\desktop\examen.3(este ultimo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+	"Listar.h"
+
+1559247415 c:\users\giglesias\desktop\examen.3(este ultimo)\musico.h
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176408 c:\users\giglesias\desktop\examen.3(este ultimo)\orquestas.h
+
+1559247499 source:c:\users\giglesias\desktop\examen.3(este ultimo)\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559176582 source:c:\users\giglesias\desktop\examen.3(este ultimo)\orquestas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Orquestas.h"
+
+1559247305 source:c:\users\giglesias\desktop\examen.3(este ultimo)\listar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"get_string.h"
+	"Musico.h"
+	"Orquestas.h"
+	"instrumento.h"
+
+1559247361 c:\users\giglesias\desktop\examen.3(este ultimo)\listar.h
+	"Orquestas.h"
+	"instrumento.h"
 

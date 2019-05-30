@@ -5,6 +5,7 @@
 #include "Musico.h"
 #include "Orquestas.h"
 #include "instrumento.h"
+#include "Listar.h"
 #define TAM 10
 
 int main()
@@ -90,6 +91,7 @@ int main()
                 break;
              case 4:
                 system("cls");
+                listarOrquestasCompletas(orquestas,TAM,musicos,TAM,instrumentos,TAM);
                 break;
             case 5:
                 system("cls");
